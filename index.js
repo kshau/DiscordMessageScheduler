@@ -1,4 +1,3 @@
-require("dotenv").config();
 const {fetch} = require("undici");
 
 const {TOKEN, MSG_CONTENT, MSG_CHANNEL, TIME} = process.env;
